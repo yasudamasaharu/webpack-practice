@@ -1,3 +1,5 @@
+import _ from 'lodash'
+
 function component() {
   const el = document.createElement('div');
   const arry = ['hello', 'webpack'];
@@ -7,6 +9,4 @@ function component() {
 
 document.body.appendChild(component());
 
-console.log('hello');
 
-console.log('test2');
